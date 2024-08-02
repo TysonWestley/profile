@@ -1,0 +1,14 @@
+#About{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+}
+#about_img{
+	width: 300px;
+	height: 400px;
+	border-radius: 50%;
+}
+#about_text{
+	width: 600px;
+	height: max-content;
+}
