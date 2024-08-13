@@ -5,6 +5,7 @@ img {vertical-align: middle;}
   display:flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 50px;
 }
 /*.slide{
   width: 300px;

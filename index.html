@@ -1,190 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Practice Website</title>
-  <link rel="stylesheet" href="../public/navbar.css">
-    <link rel="stylesheet" href="../public/introduce.css" >
-  <link rel="stylesheet"  href="../public/Languages.css">
-  <link rel="stylesheet"  href="../public/experiernce.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-  <header class="header">
-  	<div class="topnav" id="topnav">
-         <div class="logo">
-               <a href="">Logo</a>
-           </div>
-         	<div class="nav-list-item">
-                <div class="nav-item active">
-                	<a href="#home">Home</a>
-                </div>
-                <div class="nav-item"><a href="#About">About</a></div>
-                <div class="nav-item"><a href="#Languages">Languages</a></div>
-                <div class="nav-item"><a href="#Exprience">Exprience</a></div>
-                <div class="nav-item"><a href="#Contact">Contact me</a></div>
-            </div>
-            <div class="menu-icon">
-                <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./public/navbar.css" />
+    <link rel="stylesheet" href="./public/introduce.css" />
+    <link rel="stylesheet" href="./public/Languages.css" />
+    <link rel="stylesheet" href="./public/experiernce.css" />
+    <link rel="stylesheet" href="./public/infor.css" />
+    <link rel="stylesheet" href="./css.responsive/responsive.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="topnav" id="topnav">
+        <div class="logo">
+          <a href="">TYSON</a>
         </div>
-
-  </header>
-
-  <section id="home">
-      <div class="wrapper">
-    <div class="avatar">
-      <img id="imgAvatar" src="picture/c4dce75e-0de8-4923-9d38-a5d53e195578.jpg" alt="gdj">
-    </div>
-    <div class="resume">
-      <p>Hey</p>
-      <h1>I'm Tyson Westley</h1>
-      <h3>Web <span>Developer</span></h3>
-      <p>A highly motivated student studying</p>
-      <div class="button">
-        <button class="custom-btn btn-4"><span>Read More</span></button>
-        <button class="custom-btn btn-4"><span>Read More</span></button>
+        <div class="nav-list-item">
+          <div class="nav-item active">
+            <a href="#home">Home</a>
+          </div>
+          <div class="nav-item"><a href="#About">About</a></div>
+          <div class="nav-item"><a href="#Languages">Languages</a></div>
+          <div class="nav-item"><a href="#Exprience">Exprience</a></div>
+          <div class="nav-item"><a href="#contact">Contact me</a></div>
+        </div>
+        <div class="menu-icon">
+          <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
       </div>
-    </div>
-    </div>
-  </section>
-  <section>
-  		<img src="">
-  </section>
-  <section id="About">
-    <div id="about_img">
-      <img id="about_img" src="picture/c4dce75e-0de8-4923-9d38-a5d53e195578.jpg" alt="gdj">
-    </div>
-    <div id='about_text'>
+    </header>
+
+    <section id="home">
+      <div class="wrapper">
+        <div class="avatar">
+          <img
+            id="imgAvatar"
+            src="picture/c4dce75e-0de8-4923-9d38-a5d53e195578.jpg"
+            alt="gdj"
+          />
+        </div>
+        <div class="resume">
+          <p class="hello">Hey</p>
+          <h1>I'm Tyson Westley</h1>
+          <h3>Web <span>Developer</span></h3>
+          <p class="description">A highly motivated student studying</p>
+          <div class="button">
+            <button class="custom-btn btn-4"><span>Read More</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="About">
+      <div id="about_img">
+        <img src="picture/c4dce75e-0de8-4923-9d38-a5d53e195578.jpg" alt="gdj" />
+      </div>
+      <div id="about_text">
         <h1>About me</h1>
-        <br>
-        <p>Hello, my name is Tyson, and I’m a full-stack web developer. I have experience with both front-end technologies like React and back-end technologies like Node.js and Express. My goal is to build comprehensive web solutions that meet both user and business needs, ensuring a seamless experience from start to finish.</p>
-        
-    </div>
-   </section> 
-   <section id='Languages'>
-        <div>
-             <h1>Languages</h1>
+        <br />
+        <p>
+          Hello, my name is Tyson, and I’m a full-stack web developer. I have
+          experience with both front-end technologies like React and back-end
+          technologies like Node.js and Express. My goal is to build
+          comprehensive web solutions that meet both user and business needs,
+          ensuring a seamless experience from start to finish.
+        </p>
+        <div id="aliitlebit">
+          <p>Name: Tyson Westley</p>
+          <p>Level:Senior</p>
+          <p>Working:Teacher&Developer</p>
+          <p>Email:nguyenquoclongtuyen11@gmail</p>
+          <p>My greatest teacher is Google. My biggest motivation is you.</p>
+          <p>
+            Turning challenges into opportunities, one line of code at a time.
+          </p>
         </div>
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 5</div>
-                <img src="picture/html-5-icon-726x1024-evem6gg5.png" style="width:300px" class="slide">
-                <div class="text">Caption Text</div>
-            </div>
+      </div>
+    </section>
+    <section id="Languages">
+      <div>
+        <h1>Languages</h1>
+      </div>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img
+            src="picture/html-5-icon-726x1024-evem6gg5.png"
+            style="width: 300px"
+            class="slide"
+          />
+          <div class="text">Level:75%</div>
+        </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">2 / 5</div>
-            <img src="picture/888847.png" style="width:300px" class="slide">
-            <div class="text">Caption Two</div>
+          <div class="numbertext">2 / 5</div>
+          <img src="picture/888847.png" style="width: 300px" class="slide" />
+          <div class="text">Level:75%</div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">3 / 5</div>
-            <img src="picture/javascript-js-icon-2048x2048-nyxvtvk0.png" style="width:300px" class="slide">
-            <div class="text">Caption Three</div>
+          <div class="numbertext">3 / 5</div>
+          <img
+            src="picture/javascript-js-icon-2048x2048-nyxvtvk0.png"
+            style="width: 300px"
+            class="slide"
+          />
+          <div class="text">Level:75%</div>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">4 / 5</div>
-            <img src="picture/images.png" style="width:300px" class="slide">
-            <div class="text">Caption Three</div>
+          <div class="numbertext">4 / 5</div>
+          <img src="picture/images.png" style="width: 300px" class="slide" />
+          <div class="text">Level:75%</div>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">5 / 5</div>
-            <img src="picture/267_Python-512.webp" style="width:300px" class="slide">
-            <div class="text">Caption Three</div>
+          <div class="numbertext">5 / 5</div>
+          <img
+            src="picture/267_Python-512.webp"
+            style="width: 300px"
+            class="slide"
+          />
+          <div class="text">Level:85%</div>
         </div>
 
         <a class="prev" onclick="plusSlides(-1)">❮</a>
         <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <br />
 
-        </div>
-<br>
-
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span> 
-            <span class="dot" onclick="currentSlide(2)"></span> 
-            <span class="dot" onclick="currentSlide(3)"></span> 
-            <span class="dot" onclick="currentSlide(4)"></span> 
-            <span class="dot" onclick="currentSlide(5)"></span> 
-        </div>
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
     </section>
-   <section id='Exprience'>
-        <span>Experience</span>
-        <div id='direction'>
-            <span id='half'></span>
-            <span id='half1'></span>
+    <section id="Exprience">
+      <span>Experience</span>
+      <div id="direction">
+        <span id="half"></span>
+        <span id="half1"></span>
+      </div>
+      <div>
+        <button id="exprienceText">Experience</button>
+        <button id="educationText">Education</button>
+      </div>
+      <div class="clickExperience" style="display: block">
+        <h1>Experience</h1>
+        <p>
+          I have experience in full-stack web development, specializing in
+          front-end technologies like HTML, CSS, and JavaScript, along with
+          frameworks such as React. On the back-end, I’ve worked with Node.js,
+          Express, and databases like MySQL and MongoDB. I’ve built responsive,
+          user-friendly websites and applications, collaborating closely with
+          clients to meet their needs. I’m skilled in using Git for version
+          control and have deployed projects using cloud services like AWS.
+          Continuously learning and adapting, I strive to create efficient and
+          scalable web solutions.
+        </p>
+      </div>
+      <div class="clickEducation" style="display: none">
+        <h1>Education</h1>
+        <p>
+          I love mathematics and chemistry, which have fueled my analytical and
+          problem-solving skills. My studies in these subjects have provided me
+          with a strong foundation in logical thinking and scientific reasoning.
+        </p>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="section-header">Contact</h1>
+
+      <div class="contact-wrapper">
+        <!-- Left contact page -->
+
+        <form id="contact-form" class="form-horizontal" role="form">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="NAME"
+                name="name"
+                value=""
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="EMAIL"
+                name="email"
+                value=""
+                required
+              />
+            </div>
+          </div>
+
+          <textarea
+            class="form-control"
+            rows="10"
+            placeholder="MESSAGE"
+            name="message"
+            required
+          ></textarea>
+
+          <button
+            class="btn btn-primary send-button"
+            id="submit"
+            type="submit"
+            value="SEND"
+          >
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i
+              ><span class="send-text">SEND</span>
+            </div>
+          </button>
+        </form>
+
+        <!-- Left contact page -->
+
+        <div class="direct-contact-container">
+          <ul class="contact-list">
+            <li class="list-item">
+              <div class="wrapper-icon">
+                <i class="fa fa-map-marker fa-2x"></i>
+              </div>
+
+              <span class="contact-text place">Gia lai, Chư Sê</span>
+            </li>
+
+            <li class="list-item">
+              <div class="wrapper-icon">
+                <i class="fa fa-phone fa-2x"></i>
+              </div>
+              <span class="contact-text phone"
+                ><a href="tel:1-212-555-5555" title="Give me a call"
+                  >0769523878</a
+                ></span
+              >
+            </li>
+            <li class="list-item">
+              <div class="wrapper-icon">
+                <i class="fa fa-envelope fa-2x"></i>
+              </div>
+              <span class="contact-text gmail"
+                ><a href="mailto:#" title="Send me an email"
+                  >nguyenquoclongtuyen11@gmail.com</a
+                ></span
+              >
+            </li>
+          </ul>
+
+          <hr />
+          <ul class="social-media-list">
+            <li>
+              <a
+                href="https://github.com/TysonWestley"
+                target="_blank"
+                class="contact-icon"
+              >
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://x.com/45Tuyen"
+                target="_blank"
+                class="contact-icon"
+              >
+                <i class="fa fa-twitter" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/profile.php?id=100093355426922"
+                target="_blank"
+                class="contact-icon"
+              >
+                <i class="fa fa-facebook" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+          <hr />
+
+          <div class="copyright">&copy; Tyson Team</div>
         </div>
-        <div>
-            <button id='exprienceText'>Experience</button>
-            <button id='educationText'>Education</button>
-        </div>
-        <div class='clikExprience' style="display:none">
-            <h1>dFUEHe</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class='clickEducaiton' style="display:block">
-            <h1>dFUEHe</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla parfiatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-   </section>
+      </div>
+    </section>
 
-<script>
-     function toggleMenu() {
-         var x = document.getElementById("topnav");
-          x.classList.toggle("open");
-}
-    let slideIndex = 1;
-showSlides(slideIndex);
+    <script>
+      function toggleMenu() {
+        var x = document.getElementById("topnav");
+        x.classList.toggle("open");
+      }
+      const menuBtn = document.querySelectorAll(".nav-item");
+      menuBtn.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          toggleMenu();
+        });
+      });
+      let slideIndex = 1;
+      showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-  document.getElementById("exprienceText").addEventListener('click', (event) => {
-    event.preventDefault();
-    document.querySelector('.clickExperience').style.display = 'block';
-    document.querySelector('.clickEducation').style.display = 'none';
-  });
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+      document
+        .getElementById("exprienceText")
+        .addEventListener("click", (event) => {
+          event.preventDefault();
+          document.querySelector(".clickExperience").style.display = "block";
+          document.querySelector(".clickEducation").style.display = "none";
+        });
 
-  document.getElementById("educationText").addEventListener('click', (event) => {
-    event.preventDefault();
-    document.querySelector('.clickExperience').style.display = 'none';
-    document.querySelector('.clickEducation').style.display = 'block';
-})
-
+      document
+        .getElementById("educationText")
+        .addEventListener("click", (event) => {
+          event.preventDefault();
+          document.querySelector(".clickExperience").style.display = "none";
+          document.querySelector(".clickEducation").style.display = "block";
+        });
+      document
+        .querySelector("#contact-form")
+        .addEventListener("submit", (e) => {
+          e.preventDefault();
+          e.target.elements.name.value = "";
+          e.target.elements.email.value = "";
+          e.target.elements.message.value = "";
+        });
     </script>
-</body>
+  </body>
 </html>

@@ -5,7 +5,7 @@
 }
 
 body {
-  	background: #081b29;
+  	background: #021526;
   	width: 100%;
   	height: 100vh;
   	font-family: Arial, sans-serif;
@@ -17,29 +17,30 @@ header {
     align-items: center;
     width: 100%;
     height: 48px;
-    background-color: #333;
+    z-index: 999;
     background-color: transparent;
 }
-
+.header.change-background {
+    background-color: rgba(255, 255, 255, 0.3);   
+    backdrop-filter: blur(5px);
+}
 .topnav {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    padding: 0 80px;
 }
 
 .topnav .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-
     height: 100%;
     width: 100px;
 }
 .topnav .logo a {
-    color: white;
+    color: #6EACDA;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -56,7 +57,7 @@ header {
 .topnav .nav-list-item .nav-item a {
     display: block;
     padding: 14px 16px;
-    color: #f2f2f2;
+    color: #27d39f;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
@@ -66,7 +67,8 @@ header {
     color: black;
 }
 .topnav .nav-list-item .nav-item.active {
-    background-color: #04aa6d;
+    background-color: #03346E;
+    /* color:#27d39f; */
 }
 
 .topnav .menu-icon a {
@@ -77,37 +79,9 @@ header {
 .topnav .menu-icon {
     display: none;
 }
-
-@media screen and (max-width: 600px) {
-    .topnav {
-        position: relative;
-        padding: 0;
-    }
-    .topnav .menu-icon {
-        display: block;
-    }
-
-    .topnav .nav-list-item {
-        display: none;
-
-        position: absolute;
-        top: 50%;
-        left: 0;
-        flex-direction: column;
-        background: #000;
-    }
-    .topnav.open .nav-list-item {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-    }
-    .custom-btn.btn-4{
-    	margin-bottom: 10px;
-    }
-}
-#home{
+/* #home{
   	height: 100vh;
-}
+} */
 .menu-icon{
 	display: none;
 }
@@ -116,7 +90,7 @@ header {
   	flex-direction: row-reverse;
   	justify-content: space-between;
   	align-items: center;
-  	height: 100vh;
+  	/* height: 100vh; */
 }
 
 .avatar {
@@ -124,10 +98,11 @@ header {
   	text-align: center;
 }
 
-.avatar img {
-  	max-width: 100%;
-  	height: auto;
+.avatar img , #about_img img{
+  	width: 300px;
+  	height: 300px;
   	border-radius: 50%;
+    object-fit: cover;
 }
 
 .resume {
@@ -137,7 +112,7 @@ header {
 }
 
 .resume p {
-
+    color: #00abf0;
 	font-size: 24px;
 }
 
@@ -151,7 +126,7 @@ header {
 .resume h3 {
   	font-size: 28px;
   	font-weight: 500;
-  	color: #fff;
+  	color: #00abf0;
 }
 
 .button {
@@ -162,8 +137,8 @@ header {
   	width: 150px;
   	height: 50px;
   	margin: 0 10px;
-  	background-color: #4dccc6;
-  	color: #081b29;
+  	background-color: #E2E2B6;
+  	color: #021526;
   	font-size: 18px;
   	font-weight: 600;
   	border: none;
@@ -200,7 +175,44 @@ header {
 .button button:hover:after {
   	transform: translateX(0);
 }
-@media screen and (max-width: 600px) {
+#about_text h1 , #Languages div h1{
+    color: #27d39f;
+}
+#about_text p , .clickExperience p , .clickEducation p{
+    color: #E2E2B6;
+}
+.clickExperience h1 , .clickEducation h1{
+    color:#6EACDA
+}
+
+@media screen and (max-width:600px){
+    .topnav {
+        position: relative;
+        padding: 0;
+    }
+    .topnav .menu-icon {
+        display: block;
+    }
+
+    .topnav .nav-list-item {
+        display: none;
+
+        position: absolute;
+        top: 50%;
+        left: 0;
+        flex-direction: column;
+        background: #E2E2B6;
+    }
+    .topnav.open .nav-list-item {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .custom-btn.btn-4{
+    	margin-bottom: 10px;
+    }
+}
+/* @media only screen and (min-width: 768px) {
     .topnav {
         position: relative;
         padding: 0;
@@ -224,3 +236,27 @@ header {
         width: 100vw;
     }
 }
+@media only screen and (min-width: 1024px) {
+    .topnav {
+        position: relative;
+        padding: 0;
+    }
+    .topnav .menu-icon {
+        display: block;
+    }
+
+    .topnav .nav-list-item {
+        display: none;
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+        flex-direction: column;
+        background: #000;
+    }
+    .topnav.open .nav-list-item {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+} */

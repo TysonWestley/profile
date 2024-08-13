@@ -1,0 +1,255 @@
+/* resum responsive */
+@media only screen and (max-width: 46.1875em) {
+    #About{
+        flex-direction: column-reverse;
+        align-items: center;
+        /* margin-top: 30px; */
+    }
+    .resume p{
+        font-size: 28px;
+    }
+    .resume h1{
+        font-size: 14px;
+    }
+    .resume h3 , .resume h3 span{
+        font-size: 14px;
+    }
+    #home .wrapper{
+        align-items: flex-start;
+        margin-top:60px;
+    }
+    .avatar img{
+        /* width:52%; */
+    }
+    .button button{
+        height:40px;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    #about_text{
+        width: 100%;
+        padding:0 24px;
+    }
+    #about_text p ,#aliitlebit p{
+        font-size: 12px;
+    }
+    #aliitlebit{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .avatar img {
+        width: 200px;
+        height: 200px;
+  }
+  #direction{
+    width: 300px;
+  }
+  #about_img img{
+    width: 160px;
+    height: 160px;
+    
+  }
+    .clickExperience , .clickEducation{
+        width: 100%;
+        padding:0 24px;
+    }
+    #contact{
+        margin-top: 100px;
+    }
+    .contact-wrapper {
+        padding:0 12px;
+    }
+    .form-control, textarea{
+        width: 100%;;
+    }
+    .send-button{
+        width: 100%;
+    }
+    .direct-contact-container, .form-horizontal {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 60%;
+      }  
+      .direct-contact-container{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 60%;
+      }
+      .contact-list{
+        margin-left: 0px;
+      }
+      .place, .phone, .gmail{
+        margin-left: 8px;
+        font-size: 11px;
+      }
+    
+}
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .resume p{
+        font-size: 30px;
+    }
+    .resume h1{
+        font-size: 30px;
+    }
+    .resume h3 , .resume h3 span{
+        font-size: 30px;
+    }
+    #home .wrapper{
+        align-items: flex-start;
+        margin-top:120px;
+    }
+    .avatar {
+        display:flex;
+        justify-content: center;
+    }
+    .avatar img{
+        /* width:52%; */
+    }
+    .button button{
+        height: 50px;
+        border-radius: 12px;
+        font-size: 15px;
+    }
+    #about_text h1{
+        width: 100%;
+        margin-left: 100px;
+        font-size: 30px;
+
+    }
+    #about_text p ,#aliitlebit p{
+        font-size: 20px;
+        padding: 0 23px;
+    }
+    /* #about_img img{
+        width:100px;
+        height: 100px;
+    } */
+    .clickExperience , .clickEducation{
+        padding:0 24px;
+    }
+    .avatar img {
+        width: 250px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  }
+    #about_img img{
+        width: 160px;
+        height: 160px;
+        margin-top: 104px;
+    }
+    .contact-wrapper {
+        padding:0 12px;
+    }
+    .form-control, textarea{
+        width: 100%;;
+    }
+    .send-button{
+        width: 100%;
+    }
+    .direct-contact-container, .form-horizontal {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 60%;
+        
+      }  
+      .direct-contact-container{
+        width: 100%;
+        max-width: 100%;
+      }
+      .contact-list{
+        margin-left: 160px;
+      }
+      .place, .phone, .gmail{
+        margin-left: 8px;
+        font-size: 16px;
+      }
+
+}
+@media only screen and (min-width:63.9375em){
+    .resume p{
+        font-size: 30px;
+    }
+    .resume h1{
+        font-size: 30px;
+    }
+    .resume h3 , .resume h3 span{
+        font-size: 30px;
+    }
+    #home .wrapper{
+        align-items: flex-start;
+        margin-top:120px;
+    }
+    .avatar {
+        display:flex;
+        justify-content: center;
+    }
+    hr {
+        margin-left: 20px;
+    }
+    .avatar img{
+        /* width:52%; */
+    }
+    .button button{
+        height: 50px;
+        border-radius: 12px;
+        font-size: 20px;
+    }
+    #about_text h1{
+        width: 100%;
+        margin-left: 100px;
+        font-size: 30px;
+
+    }
+    #about_text p ,#aliitlebit p{
+        font-size: 20px;
+        padding: 0 23px;
+    }
+    /* #about_img img{
+        width:100px;
+        height: 100px;
+    } */
+    .clickExperience , .clickEducation{
+        padding:0 24px;
+    }
+    .avatar img {
+        width: 250px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  }
+    #about_img img{
+        width: 250px;
+        height: 300px;
+        margin-top: 104px;
+    }
+    .contact-wrapper {
+        padding:0 12px;
+    }
+    .form-control, textarea{
+        width: 100%;;
+    }
+    .send-button{
+        width: 100%;
+    }
+    .direct-contact-container, .form-horizontal {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 60%;
+        
+      }  
+      .direct-contact-container{
+        width: 100%;
+        max-width: 100%;
+      }
+      .contact-list{
+        margin-left: 160px;
+      }
+      .place, .phone, .gmail{
+        margin-left: 8px;
+        font-size: 16px;
+      }
+
+}
