@@ -3,7 +3,6 @@
     #About{
         flex-direction: column-reverse;
         align-items: center;
-        /* margin-top: 30px; */
     }
     .resume p{
         font-size: 28px;
@@ -18,9 +17,7 @@
         align-items: flex-start;
         margin-top:60px;
     }
-    .avatar img{
-        /* width:52%; */
-    }
+
     .button button{
         height:40px;
         border-radius: 5px;
@@ -105,9 +102,6 @@
         display:flex;
         justify-content: center;
     }
-    .avatar img{
-        /* width:52%; */
-    }
     .button button{
         height: 50px;
         border-radius: 12px;
@@ -123,10 +117,6 @@
         font-size: 20px;
         padding: 0 23px;
     }
-    /* #about_img img{
-        width:100px;
-        height: 100px;
-    } */
     .clickExperience , .clickEducation{
         padding:0 24px;
     }
@@ -191,9 +181,6 @@
     hr {
         margin-left: 20px;
     }
-    .avatar img{
-        /* width:52%; */
-    }
     .button button{
         height: 50px;
         border-radius: 12px;
@@ -209,10 +196,6 @@
         font-size: 20px;
         padding: 0 23px;
     }
-    /* #about_img img{
-        width:100px;
-        height: 100px;
-    } */
     .clickExperience , .clickEducation{
         padding:0 24px;
     }
