@@ -30,7 +30,7 @@
         width: 100%;
         padding:0 24px;
     }
-    #about_text p ,#aliitlebit p{
+    #about_text p {
         font-size: 12px;
     }
     #aliitlebit{
@@ -81,6 +81,9 @@
       .place, .phone, .gmail{
         margin-left: 8px;
         font-size: 11px;
+      }
+      .LabelAll{
+        font-size: 14px;
       }
     
 }
